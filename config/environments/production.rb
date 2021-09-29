@@ -20,6 +20,7 @@ Rails.application.configure do
     :port => 587,
     :authentication => :plain,
     :enable_starttls_auto => true
+    :setFrom => "daniel130300@outlook.com"
   }
 
   config.action_mailer.delivery_method = :smtp
