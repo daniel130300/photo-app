@@ -19,8 +19,7 @@ Rails.application.configure do
     :address => 'smtp.sendgrid.net',
     :port => 587,
     :authentication => :plain,
-    :enable_starttls_auto => true,
-    :setFrom => "hector.lopez@helloiconic.com"
+    :enable_starttls_auto => true
   }
 
   config.action_mailer.delivery_method = :smtp
